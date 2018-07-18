@@ -1,0 +1,57 @@
+A beginners guide to Vim
+
+*** entering modes
+for Insert: i, a, o, O
+for Command: Escape from any mode
+for Line: Escape and : from any mode
+
+
+*** in Insert you type as in any other text editor
+
+
+*** in Command: there are a lot short commands
+h - move one left
+j - move one down
+k - move one up
+l - move one right
+G - move to end of file
+gg - move to begining of file
+o - enters a new line and moves at the start of that line, entering the Insert mode
+$ - move to end of the line
+b - move backward one word
+`. - move to last edit
+
+/text - search for text
+n - after search is done jump to the next instance found
+N - jump to previous instance found
+?text - search backwards
+
+
+
+u - undo last operation
+Ctrl+r - redo last undo
+d - delete, always expects a second command
+dd - delete line
+dw - delete section of wor after the cursor, entire word if cursor is at the begining of word
+d10w - delete 10 words
+dG - delete all from cursor to end of file
+dgg - delete all from cursor to begining of file
+do - delete to the begining of the line
+d$ - delete to the end of the line
+
+p - paste the last item stored in buffer (delete or copy)
+v - start a selection, character by charater; move cursor to define the selection
+V - select by line
+Ctrl+V - select by column
+
+y - send selection to buffer
+
+
+*** in Line, there are commands at the system level
+:w - write to file (saving)
+:q - quit application; will prompt message and prevent exit if file not saved
+:q! - quit without asking, what is not saved is lost
+
+Ctrl+z - minimize window
+ZZ - save and close
+
