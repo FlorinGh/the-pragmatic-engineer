@@ -1,19 +1,19 @@
 The pragmatic analyst
 *** a list of tips adapted from the Pragmatic Programmer ***
 
-1. Care About Your Craft
+1. Care about your craft
 Why spend your life doing computational engineering unless you care about doing it well?
 
-2. Think! About Your Work
+2. Think! about your work
 Turn off the autopilot and take control. Constantly critique and appraise your work.
 
-3. Provide Options. Don't Make Lame Excuses
+3. Provide options. Don't make lame excuses
 Instead of excuses, provide options. Don't say it can't be done; explain what can be done.
 
-4. Don't Live with Broken Windows
+4. Don't live with broken windows
 Fix bad designs, wrong decisions and poor setups when you see them.
 
-5. Be a Catalyst for change
+5. Be a catalyst for change
 You can't force change on people. Instead, show them how the future might be and help them
 participate in creating it.
 
@@ -27,10 +27,27 @@ Involve your users (manager/client) in determining the project's real quality re
 Make learning a habit.
 
 9. Critically analyse what you read and hear
-Don't be sawed by vendors, media hype or dogma; analyse information in terms
-of you and your project.
+Don't be swayed by vendors, media hype or dogma; analyse information in terms of you and your project.
 
-10. It's Both What You Say and the way you say it
+10. It's both what you say and how you say it
+There's no point in having great ideas if you don't communicate them effectively.
+
+11. DRY: Do not repeat yourself
+Every piece of knowledge must have a single, unambiguous, authoritative representation within a system
+
+12. Make it easy to reuse
+If it's easy to reuse, people will. Create an environment that supports reuse.
+Create templates, guidelines and models that can be adapted to the particular case.
+
+13. Eliminate effects between unrelated things
+Design compnents that are self-contained, independent and have a single well-defined purpose.
+
+14. There are no final decisions
+No decision is cast in stone. Instead, consider each as being written on teh sand at the beach and always
+plan for change.
+
+15. Use tracer bullets to find the target
+
 
 
 
